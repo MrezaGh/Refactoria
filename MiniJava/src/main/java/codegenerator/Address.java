@@ -16,7 +16,7 @@ public class Address {
 
     public Address(int num, VarType varType) {
         this.num = num;
-        this.type = TypeAddress.Direct; 
+        this.type = TypeAddress.Direct;
         this.varType = varType;
     }
     public String toString(){
