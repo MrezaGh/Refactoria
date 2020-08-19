@@ -62,6 +62,7 @@ class _3AddressCode {
     public Address Operand3;
 
     public _3AddressCode() {
+        // it is intentially left blank
 
     }
 
