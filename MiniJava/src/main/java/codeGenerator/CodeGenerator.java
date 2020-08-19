@@ -495,6 +495,7 @@ public class CodeGenerator {
     }
 
     public void main() {
+        // it is intentionally left blank
 
     }
 
