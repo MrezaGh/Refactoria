@@ -8,14 +8,14 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 import Log.Log;
-import codeGenerator.CodeGenerator;
-import errorHandler.ErrorHandler;
+import codegenerator.CodeGenerator;
+import errorhandler.ErrorHandler;
 import scanner.lexicalAnalyzer;
 import scanner.token.Token;
 
 
 public class Parser {
-  private List<Rule> rules;
+  private ArrayList<Rule> rules;
   private Stack<Integer> parsStack;
   private ParseTable parseTable;
   private lexicalAnalyzer lexicalAnalyzer;
