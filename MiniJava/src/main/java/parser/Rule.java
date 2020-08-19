@@ -47,7 +47,7 @@ public class Rule {
         }
     }
     public NonTerminal LHS;
-    public ArrayList<GrammarSymbol> RHS;
+    public List<GrammarSymbol> RHS;
     public int semanticAction;
 }
 
